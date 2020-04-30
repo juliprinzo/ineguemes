@@ -248,6 +248,12 @@ td, th {
 #musica{
 	@include background ($fondo:false);
     padding-top: 7%;
+    h1{
+        text-align: center;
+        letter-spacing: 5px;
+        padding-bottom: 5%;
+        font-size: 45px;
+    }
     h2{
         padding-top: 5%;
     }
@@ -468,6 +474,8 @@ td, th {
     }
     h1{
         padding-bottom: 2%;
+        text-align: center;
+        padding-top: 3%;
     }
     h3{
         font-size: 150%;
